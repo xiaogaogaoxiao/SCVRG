@@ -4,7 +4,7 @@ These codes provide implementations of solvers for large-scale finite-sum compos
 
 # About
 
-We propose an accelerated stochastic compositional variance reduced gradient method for optimizing the sum of a composition function and a convex nonsmooth function. We provide an \textit{incremental first-order oracle} (IFO) complexity analysis for the proposed algorithm and show that it is provably faster than all the existing methods. Indeed, we show that our method achieves an asymptotic IFO complexity of $O\left((m+n)\log\left(1/\varepsilon\right)+1/\varepsilon^3\right)$ where $m$ and $n$ are the number of inner/outer component functions, improving the best-known results of $O\left(m+n + (m+n)^{2/3}/\varepsilon^2\right)$ for convex composition problem. Experiment results on sparse mean-variance optimization with 21 real-world financial datasets confirm that our method outperforms other competing methods.
+We propose an accelerated stochastic compositional variance reduced gradient method for optimizing the sum of a composition function and a convex nonsmooth function. We provide an \textit{incremental first-order oracle} (IFO) complexity analysis for the proposed algorithm and show that it is provably faster than all the existing methods. Indeed, we show that our method achieves an asymptotic IFO complexity of O((m+n)log(1/eps)+1/eps^3) where $m$ and $n$ are the number of inner/outer component functions, improving the best-known results of O(m+n+(m+n)^{2/3}/eps^2\right)$ for convex composition problem. Experiment results on sparse mean-variance optimization with 21 real-world financial datasets confirm that our method outperforms other competing methods.
 
 # Codes
 

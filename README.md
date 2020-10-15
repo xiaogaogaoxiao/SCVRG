@@ -12,4 +12,4 @@ Implementations in MATLAB are provided, including sparse mean-variance optimizat
 
 # References
 
-T. Lin, C. Fan, M. Wang, M. I. Jordan. Improved Oracle Complexity for Stochastic Compositional Variance Reduced Gradient. Arxiv Priprint. https://arxiv.org/abs/1806.00458
+Improved Oracle Complexity for Stochastic Compositional Variance Reduced Gradient. T. Lin, C. Fan, M. Wang, M. I. Jordan. ACC'2020.  
